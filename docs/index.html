@@ -104,7 +104,7 @@
             <ul class="timeline-bullets">
                 <li>Administration des serveurs et équipements réseaux, garantissant la disponibilité des environnements de production.</li>
                 <li>Coordination de projets de sécurisation et automatisation (SIEM, Bastion), assurant la conformité du SI.</li>
-                <li>Modernisation progressive des infrastructures vers des solutions plus modernes tout en maintenant les environnements legacy.</li>
+                <li>Modernisation progressive des infrastructures vers des solutions plus modernes tout en maintenant et en sécurisant les environnements legacy.</li>
             </ul>
         </div>
         <div class="timeline-item fade-in">
@@ -142,6 +142,7 @@
         <h2>Compétences</h2>
         <div class="section-line"></div>
     </div>
+
     <div class="skills-grid">
         <div class="skill-card fade-in">
             <div class="skill-card-title">Systèmes & Infrastructures</div>
@@ -155,8 +156,10 @@
                 <span class="tag">Openstack</span>
                 <span class="tag">Ansible</span>
                 <span class="tag">IaC</span>
+                <span class="tag">Gitlab CI/CD</span>
             </div>
         </div>
+
         <div class="skill-card fade-in">
             <div class="skill-card-title">Réseaux & Datacenter</div>
             <div class="skill-tags">
@@ -166,23 +169,23 @@
                 <span class="tag">HAProxy</span>
                 <span class="tag">VLANs</span>
                 <span class="tag">NAT</span>
-                <span class="tag">DHCP</span>
                 <span class="tag">Routage inter-VLAN</span>
             </div>
         </div>
+
         <div class="skill-card fade-in">
             <div class="skill-card-title">Cybersécurité & Audit</div>
             <div class="skill-tags">
                 <span class="tag purple">Pentesting</span>
                 <span class="tag purple">EBIOS RM</span>
                 <span class="tag purple">SIEM</span>
-                <span class="tag purple">Firewall</span>
-                <span class="tag purple">Bastion</span>
+                <span class="tag purple">Firewall Stormshield (CSNA)</span>
                 <span class="tag purple">Kali Linux</span>
                 <span class="tag purple">Nmap</span>
                 <span class="tag purple">MSFconsole</span>
             </div>
         </div>
+
         <div class="skill-card fade-in">
             <div class="skill-card-title">Développement & Scripting</div>
             <div class="skill-tags">
@@ -193,6 +196,7 @@
                 <span class="tag green">Git</span>
                 <span class="tag green">Java</span>
                 <span class="tag green">PHP</span>
+                <span class="tag green">SQL</span>
                 <span class="tag green">HTML / CSS</span>
             </div>
         </div>
@@ -222,6 +226,7 @@
         <h2>Formation</h2>
         <div class="section-line"></div>
     </div>
+
     <div class="edu-grid">
         <div class="edu-card fade-in">
             <div class="edu-period">2024 — 2027</div>
@@ -229,18 +234,21 @@
             <div class="edu-school">IMT Mines Alès · Alès, France</div>
             <div class="edu-desc">Spécialisation en réseaux et systèmes d'information. Projet académique en cours : conception d'un service de géolocalisation en temps réel et d'alerte.</div>
         </div>
+
         <div class="edu-card fade-in">
             <div class="edu-period">2021 — 2024</div>
             <div class="edu-degree">BUT Réseaux & Télécommunications — Cybersécurité</div>
             <div class="edu-school">IUT de Clermont-Ferrand · Aubière, France</div>
             <div class="edu-desc">Parcours spécialisé en Cybersécurité, axé sur le pentesting et la défense des systèmes. Apprentissage des infrastructures systèmes, réseaux et Cloud d'entreprise.</div>
         </div>
+
         <div class="edu-card fade-in">
             <div class="edu-period">Août — Déc. 2022</div>
             <div class="edu-degree">Techniques de l'informatique</div>
             <div class="edu-school">CÉGEP de Chicoutimi · Québec, Canada</div>
             <div class="edu-desc">Programme d'échange international. Projet de fin de session : déploiement d'une infrastructure de petite entreprise.</div>
         </div>
+
         <div class="edu-card fade-in">
             <div class="edu-period">2021</div>
             <div class="edu-degree">Baccalauréat Général — Mention Bien</div>
@@ -256,32 +264,64 @@
         <h2>Projets</h2>
         <div class="section-line"></div>
     </div>
+
     <div class="project-card fade-in">
         <div>
             <div class="project-title">Service de géolocalisation en temps réel & alerte</div>
             <p class="project-desc">Projet académique en cours à l'IMT Mines Alès. Conception d'un service complet de géolocalisation en temps réel couplé à un système d'alertes, mobilisant des compétences en développement backend, réseaux et supervision.</p>
             <div class="skill-tags">
                 <span class="tag">En cours</span>
-                <span class="tag green">Backend</span>
-                <span class="tag">Réseaux</span>
+                <span class="tag green">IoT</span>
+                <span class="tag green">LoRA</span>
+                <span class="tag">MQTT</span>
                 <span class="tag purple">Supervision</span>
             </div>
         </div>
-        <div class="project-year">2024 – 2025</div>
+        <div class="project-year">2025 – 2027</div>
     </div>
+
+    <div class="project-card fade-in">
+        <div>
+            <div class="project-title">Automatisation des déploiements en environnement datacenter</div>
+            <p class="project-desc">Projet académique au sein de l'IMT Mines Alès. Déploiement automatisé de noeuds Proxmox dans des environnements clusterisés.</p>
+            <div class="skill-tags">
+                <span class="tag">Ansible</span>
+                <span class="tag purple">Proxmox</span>
+                <span class="tag purple">Cluster</span>
+                <span class="tag green">Git</span>
+                <span class="tag green">Python</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card fade-in">
+        <div>
+            <div class="project-title">Projet Intégrateur - IMT Mines Alès</div>
+            <p class="project-desc">Mise en place d'une infrastructure virtualisée (Vyos, Openvswitch, Alpine Linux). Développement d'outils permettant d'obtenir les informations réseaux de chaque équipement local et distant.</p>
+            <p class="info-value"><a href="https://github.com/Bysmileth/projet_integrateur" target="_blank">Voir le projet sur GitHub</a></p>
+            <div class="skill-tags">
+                <span class="tag green">Langage C</span>
+                <span class="tag">Vyos</span>
+                <span class="tag">OSPF</span>
+                <span class="tag purple">Virtualisation</span>
+            </div>
+        </div>
+    </div>
+
     <div class="project-card fade-in">
         <div>
             <div class="project-title">Logiciel de déploiement automatique Android</div>
             <p class="project-desc">Développé lors du stage chez Mistral Informatique. Ce logiciel réduit le temps de déploiement d'applicatifs Android de 45 minutes à 5 minutes par appareil — gain de productivité de 89 %.</p>
             <div class="skill-tags">
-                <span class="tag green">Python</span>
                 <span class="tag green">Bash</span>
-                <span class="tag">ADB</span>
-                <span class="tag purple">Automatisation</span>
+                <span class="tag green">ADB</span>
+                <span class="tag purple">Android</span>
+                <span class="tag">Analyse de cahier des charges</span>
             </div>
         </div>
         <div class="project-year">2023</div>
     </div>
+
     <div class="project-card fade-in">
         <div>
             <div class="project-title">Réseau d'entreprise GNS3 — Architecture complète</div>
@@ -292,11 +332,12 @@
                 <span class="tag">VLANs</span>
                 <span class="tag">Apache2</span>
                 <span class="tag green">PHP</span>
-                <span class="tag">VSFTPD</span>
+                <span class="tag">FTP Serveur</span>
             </div>
         </div>
         <div class="project-year">2022</div>
     </div>
+
     <div class="project-card fade-in">
         <div>
             <div class="project-title">Présentation Réalité Virtuelle — Exposcience 2022</div>
@@ -356,7 +397,7 @@
 </section>
 
 <footer>
-    <span>© 2025 Antoine Pélissier — Ingénieur Systèmes, Réseaux & Cybersécurité</span>
+    <span>© 2026 Antoine Pélissier — Ingénieur Systèmes, Réseaux & Cybersécurité</span>
 </footer>
 
 <script>
